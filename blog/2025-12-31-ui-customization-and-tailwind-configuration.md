@@ -212,7 +212,7 @@ Having the same CSS file imported in multiple places can cause issues. Keep CSS 
 2.  **Visual check**:
 
     -   On desktop (≥1024px): Should see 2 columns (TemperatureDisplay on left, StatusIndicators on right)
-    -   On mobile/tablet (<1024px): Should see 1 column (stacked)
+    -   On mobile/tablet (&lt;1024px): Should see 1 column (stacked)
 
 3.  **Check the bundle**:
     -   Tailwind utility classes should be present in the generated CSS
